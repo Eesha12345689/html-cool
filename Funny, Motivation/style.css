@@ -1,0 +1,52 @@
+/* body{
+    background-color: black;
+  }
+  #all{
+    width:50%;
+    
+  }
+  #header{
+    margin-left: 275px;
+    color: rgb(252, 228, 228);
+    font-size: 50px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+  #image{
+    height: 500px;
+    width:800px;
+    margin-top: 75px;
+    border: 3.75px solid rgb(252, 228, 228);
+
+    
+  }
+  #paragraph{
+    margin-left: 60px;
+    color: rgb(252, 228, 228);
+    font-size: 20px;
+  } */
+
+  body {
+    background-color: black;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  
+  .poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: rgb(253, 220, 220) ;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+  }
+  
+  .motivation-img {
+    border: 3.75px solid rgb(249, 215, 215);
+    width: 100%;
+  }
