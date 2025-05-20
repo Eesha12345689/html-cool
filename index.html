@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO
+1. Make both paragraph elements wrap around the image.
+2. Use Float to move the cat div to the left and the dog div to the right.
+3. Use clear to make the footer go below both the cat and dog div. -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Float</title>
+  <style>
+    div {
+      display: inline-block;
+      width: 40%;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    .cat {
+      background-color: aquamarine;
+      float: left;
+    }
+
+    .dog {
+      background-color: coral;
+      float:right
+      }
+      img{
+        float: left;
+      }
+      footer {
+      text-align: center;
+      background-color: rgb(84, 41, 124);
+      clear: both;
+      color: aliceblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cat">
+    <h2>CatS</h2>
+
+    <img src="cat.jpeg" alt="cat in a box" />
+    <p class="first-paragraph">Cats are independent yet affectionate animals who enjoy quiet cuddles, playful moments, sunny windows, and gentle pats, providing calm companionship while keeping themselves clean, chasing toys, climbing furniture, and bringing peace, comfort, mystery, beauty, and charm to any cozy home! </p>
+  </div>
+  <div class="dog">
+    <h2>DogS</h2>
+    <img src="dog.jpeg" alt="dogs in a box" />
+    <p class="second-paragraph">Dogs are loyal companions who love everything, protect their families, enjoy playtime and long walks, bark at danger, respond well to training, comfort people, learn tricks, and bring endless joy, laughter, warmth, and energy to people of all ages.  </p>
+  </div>
+
+  <footer>Copyright Eesha V.</footer>
+</body>
+
+</html>
